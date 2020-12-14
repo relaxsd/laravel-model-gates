@@ -1,0 +1,29 @@
+{
+    "name": "relaxsd/laravel-model-gates",
+    "description": "Model gates for Laravel",
+    "keywords": [
+        "gates",
+        "authorisation",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Relax Software Development",
+            "email": "laravel-model-gates@relax-software.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0|~6.0|~7.0|~8.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Relaxsd\\Gate": "src/"
+        }
+    }
+}

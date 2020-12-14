@@ -1,0 +1,5 @@
+suites:
+  relaxsd_suite:
+    namespace: Relaxsd
+    src_path: src
+    spec_prefix: spec
